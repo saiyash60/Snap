@@ -30,13 +30,11 @@ function showmenu() {
     document.querySelector(".mB").style.display = "none";
     document.querySelector(".cB").style.display = "block";
 
-    document.querySelector("#mainHead").style.marginTop = "170px"; 
 }
 function hidemenu() {
     document.querySelector(".nav_items").style.display = "none";
     document.querySelector(".cB").style.display = "none";
     document.querySelector(".mB").style.display = "block";
 
-    document.querySelector("#mainHead").style.marginTop = "0px"; 
 }
 

@@ -1,6 +1,7 @@
 * {
   margin: 0px 0px;
   background-color: #fafafa;
+  scroll-behavior: smooth;
 }
 
 .phonePic {
@@ -179,7 +180,7 @@ h1 {
   }
 
   .nav_items {
-    display: block;
+    display: none;
     float: right;
     position: relative;
   }
@@ -194,13 +195,13 @@ h1 {
   .mB {
     display: block;
     float: right;
-    color: #696969;
+    color: black;
   }
 
   .cB {
     display: none;
     float: right;
-    color: #696969;
+    color: black;
   }
 
   .nav_items > li {
@@ -221,12 +222,16 @@ h1 {
   h1 {
     font-size: 2.8rem;
     text-align: center;
+    margin-top: 40px;
+  }
+
+  .pContent{
+    margin-top: 0px;
   }
 
   p {
-    text-align: justify;
+    text-align: center;
     padding: 5px 10px;
-    margin-top: 0px;
   }
 
   .learn {
@@ -244,13 +249,13 @@ h1 {
 
   .fimages {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     margin-top: 0px;
   }
 
   .fimages img {
-    padding: 10px;
+    width: 50px;
+    padding: 0px;
   }
 
   .register {
@@ -258,6 +263,7 @@ h1 {
   }
 
   .pfooter {
+    margin-top: 30px;
     text-align: center;
   }
 }
