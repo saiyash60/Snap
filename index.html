@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav>
+    <img class="logo" src="/images/logo.svg" alt="logo">
+    <a href="#" onclick="showmenu()" class="mB"><i class="fa-solid fa-bars"></i></a>
+    <a href="#" onclick="hidemenu()" class="cB"><i class="fa-solid fa-xmark"></i></a>
+    <ul class="nav_items">
+      <li class="menu1">Features
+        <img class="ad" src="/images/icon-arrow-down.svg" alt="arrow_down">
+        <ul class="submenu">
+          <li><img src="/images/icon-todo.svg" alt="todo image"> Todo List</a></li>
+          <li><img src="/images/icon-calendar.svg" alt="calendar image"> Calendar</li>
+          <li><img src="/images/icon-reminders.svg" alt="reminders image"> Reminders</li>
+          <li><img src="/images/icon-planning.svg" alt="planning image"> Planning</li>
+        </ul>
+      </li>
+      <li class="menu2">Company
+        <img class="ad2" src="/images/icon-arrow-down.svg" alt="arrow_down">
+        <ul class="submenu2">
+          <li>History</li>
+          <li>Our Team</li>
+          <li>Blog</li>
+        </ul>
+      </li>
+      <li>Careers</li>
+      <li>About</li>
+    </ul>
+    <div class="register">
+      <button class="logB navB">Login</button>
+      <button class="regB navB">Register</button>
+    </div>
+
+
+  </nav>
+
+  <section class="content">
+    <!-- <img class="phonePic" src="/images/image-hero-mobile.png" alt="hero-pic"> -->
+    <div class="tContent">
+      <h1 id="mainHead">Make <br> remote work</h1>
+      <p class="pContent"> Get your team in sync, no matter your location. <br> Streamline processes,
+        create team rituals, and <br> watch productivity soar.</p>
+      <button class="learn">Learn more</button>
+      <img class="phonePic" src="/images/image-hero-mobile.png" alt="hero-pic">
+      <div class="fimages">
+        <img src="/images/client-databiz.svg" alt="databiz pic">
+        <img src="/images/client-audiophile.svg" alt="audiophile pic">
+        <img src="/images/client-meet.svg" alt="meet pic">
+        <img src="/images/client-maker.svg" alt="maker pic">
+      </div>
+    </div>
+    <div class="iContent">
+      <img src="images/image-hero-desktop.png" alt="pic of hero">
+    </div>
+  </section>
+  <br><br>
+
+  <footer>
+    <p class="pfooter">©2022 Sai Yash-All Rights Reserved</p>
+  </footer>
+</body>
+<script src="index.js"></script>
+
+</html>
